@@ -13,7 +13,7 @@ while(distance <=0){
 	try{
 		System.out.print("Enter the distance : ");
 		distance = sc.nextDouble();
-		if(distance ==0){
+		if(distance == 0){
 		System.out.println("Please Enter the Valed Distance");
 		}
 	}catch(Exception e){
@@ -23,9 +23,9 @@ while(distance <=0){
 }
 
 	while(distance > 0){
-		if(count >0){
+		
 		timeSlot+=1;
-		}
+		
 
 		distance -=5;
 		count++;
@@ -43,7 +43,7 @@ while(distance <=0){
 	}
 
 System.out.println("Frog Jump count " + count); 
-System.out.println("Time Slot : " + timeSlot/60 + "min : " + timeSlot%60 +"Sec "); 
+System.out.println("Time Slot : " + timeSlot/60 + "min : " + timeSlot%60 + " Sec "); 
 
 }
 
