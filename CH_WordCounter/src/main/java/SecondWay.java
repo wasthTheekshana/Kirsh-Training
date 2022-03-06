@@ -8,6 +8,7 @@ public class SecondWay {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Your Word : ");
         message = sc.nextLine();
+//        message = sc.nextLine().toLowerCase();
 
         for (int i =0; i<message.length();i++){
             countArray[message.charAt(i)]++;
