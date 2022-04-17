@@ -1,0 +1,4 @@
+org\example\rentcloud\model\customer\Loyality.class
+org\example\rentcloud\model\rent\Rent.class
+org\example\rentcloud\model\vehicle\Vehicle.class
+org\example\rentcloud\model\customer\Customer.class
